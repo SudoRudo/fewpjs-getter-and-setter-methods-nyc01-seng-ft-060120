@@ -20,7 +20,7 @@ class Circle{
   }
   
   set diameter(value){
-    this.radius = this.radius / value
+    this.radius = value / 2
   }
   
   
