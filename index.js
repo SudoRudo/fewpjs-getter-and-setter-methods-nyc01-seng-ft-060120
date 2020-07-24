@@ -23,5 +23,9 @@ class Circle{
     this.radius = value / 2
   }
   
+  set circumference(value){
+    const pi = Math.PI;
+    this.radius = value / pi / 2
+  }
   
 }
