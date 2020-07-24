@@ -10,8 +10,7 @@ class Circle{
   }
   
   get circumference(){
-    const pi = piMath.PI;
-    return 2 * pi * this.radius
+    return 2 * piMath.PI * this.radius
   }
   
   get area(){
