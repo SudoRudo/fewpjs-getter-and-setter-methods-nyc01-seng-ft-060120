@@ -18,4 +18,10 @@ class Circle{
     const pi = Math.PI;
     return pi * (this.radius * this.radius)
   }
+  
+  set diameter(value){
+    this.radius = this.radius / value
+  }
+  
+  
 }
